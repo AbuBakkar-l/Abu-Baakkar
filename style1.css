@@ -1,0 +1,510 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* /////////////////^^ header section ^^/////////*/
+
+#header{
+   background-image:linear-gradient(rgba(0,0,0,0.3),#009688), url(../images/pexels-alleksana-4113663.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+/* /////////////////^^ logu section ^^/////////*/
+
+.logu{
+    margin: 30px;
+    width: 108px;
+    animation: logu 4s ;
+
+}
+@keyframes logu{
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        font-size: 42px;
+    }
+}
+/* /////////////////^ Header section ^^/////////*/
+
+.div1{
+    margin: 100px 0px 0px 200px;
+
+}
+.div1 h1{
+    color: #fff;
+    font-size: 77px;
+    font-family: Jokerman;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 6px;
+}
+.div1 p{
+    color: #fff;
+    font-size: 18px;
+    font-family: inherit;
+    letter-spacing: 4px;
+    margin-top:-10px;
+}
+.btn{
+    margin-top: 10px;
+    width: 200px;
+    height: 45px;
+    letter-spacing: 2px;
+    background:#008896;
+    color: #fff;
+    font-family: cursive;
+    
+}
+.btn:hover{
+    background: #fff;
+    color: #008896;
+    text-shadow: 4px 1px 8px red;
+}
+/* /////////////////^^ search section ^^/////////*/
+
+form{
+    margin-left: 50%;
+    margin-top: -130px;
+    width: 400px;
+}
+form .input{
+    background:transparent;
+    border: none;
+    font-size: 22px;
+    padding-left: 8px;
+    color: antiquewhite;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    padding-top: 20px;
+    outline: none;
+    width: 200px;
+}
+
+form [type="input"]{
+    color: #fff;
+    font-size:27px;
+    caret-color: yellow;
+       
+}
+
+
+/* /////////////////^^ Manu section ^^/////////*/
+
+#manu{
+    height: 95vh;
+    width: 20%;
+    background: #0d8092de;
+    color: antiquewhite;
+    margin-top: -356px;
+    margin-left: 1076px;
+    border-radius: 3%;
+}
+#manu ul{
+    text-align: center;;
+
+}
+#manu ul li{
+    list-style: none;
+    padding-top: 60px;
+    margin-left: 7px;
+    border-bottom: 2px solid #fff;
+}
+#manu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 10;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+.fas{
+    color: #ffff;
+    font-size: 30px;
+    margin-right: 6px;
+}
+/* ********.... CoCa cola detail Section.....*******/
+
+.mainsection{
+    margin: 50px auto;
+    height: 70vh;
+    width: 100%;
+}
+.mainsection1 h3{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: monospace; 
+}
+.mainsection1 h3::before{
+    content: "";
+    position: absolute;
+    top: 114%;
+    left: 37%;
+    border-bottom: 4px solid #008896;
+    width: 16%;
+    height: 2px;
+}
+main .owner{
+     width: 40%;
+     margin-top: 90px; 
+     margin-left: 96px;
+     line-height: 1.6;
+}
+.owner h4{
+    text-align: center;
+    font-size: 25.3px;
+    color: #000000;
+    padding-right: 20px;
+    list-style: armenian;
+    text-decoration: overline;
+}
+.first-child{
+    text-decoration: inherit;
+    font-size: 38px;
+    color: red;
+}
+
+.owner p{
+    padding-left: 58px;
+    font-size: 18px;
+    width: 500px;
+    padding-top: 5px;
+
+}
+
+/* ...................^^ Section owner image ^^^^^............. */
+#sideimage{
+     width: 60%;
+     float: right;
+}
+#sideimage img{
+   margin-top: -430px;
+   margin-left: 239px;
+   width: 443px;
+   height: 424px;
+   border-radius: 10%;
+   animation: img 6s ;
+}
+@keyframes img{
+    0%{
+        transform: translateX(120px);
+    }
+}
+
+.owner button{
+    margin: 42px 67px;
+    width: 200px;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),#009688);
+    border-radius: 8%;
+
+    outline: none;
+}
+.owner button:hover{
+    border:1px solid wheat;
+    color:blueviolet;
+    letter-spacing: 3px;
+    box-shadow: 9px 4px 18px 12px #009688 ;
+    box-shadow: -4px 4px 18px 12px #009688;
+    background-image: linear-gradient(rgba(0,0,0,0.3),#009688);
+    transition: all 1s ease;
+}
+
+</*   ************** Prodct section!   ************** -->*/
+#container{ 
+    height: 100vh;
+    width: 100%;
+}
+#container h1{
+     padding-left: 200px;
+     text-transform: uppercase;
+     padding-top: 60px;
+     font-weight: bold;
+     font-family: monospace;
+     color: #008896;
+    border-bottom: 3px solid #008896;
+     
+    
+}
+.pp{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1),#008896);
+    width: 80%;
+    font-size: 17.6px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-left: 270px;
+}
+.productrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 60px;
+    margin-left: 39px;
+    
+       
+}
+.product1{
+      flex-grow: 1;
+      flex-basis: 290px;
+      margin-top:-1px;
+      align-items: center;
+      margin-left: -9px;     
+}
+.product1:hover{
+    box-shadow: 3px 4px 29px #008896;
+    transition: all 0.4s ease;
+}
+.product1 > h4{
+    color:darkcyan;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+.product1 > p{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 259px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+/*    margin-left: -34px;*/
+    font-weight: lighter;
+    word-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+.product1 img{
+    margin-left: 68px;
+    width: 130px;
+    height: auto;
+
+}
+.product1 img:active{
+    box-shadow: 3px 4px 7px #008896;
+    transition: all 0s ease;
+}
+.product1{
+      box-shadow: 6px 5px 10px 0px rgba(0,0,0,0.9), 30px 7px 21px 0 rgba(0,0,0,0.20);
+      margin: 22px -16px 8px 29px;
+}
+
+/* ^^^^^^^^^^^^^^^---Contect Section---^^^^^^^^^^ */
+.formsection h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 10px;
+    font-family: serif;
+    font-weight: 1000;
+    border-left: 5px solid rgba(0,0,0,0.5);
+    border-width: 100px;
+    text-shadow: 3px 4px 8px black;
+    display: block;
+}
+.red{
+    margin-top: 60px;
+    background-image:linear-gradient(to top, rgba(0,0,0,0.3),#009688),url(../images/pexels-burst-374631.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+    }  
+
+.form1{
+    background-color: #2b667dc4;
+    line-height: 20px;
+    width: 80%;
+    height: 95.5vh;
+    margin: auto;
+    padding-left: 130px;
+    padding-top: 49px;
+    box-shadow: 3px 4px 6px 5px rgba(0,0,0,0.5);
+    font-family: normal;
+    margin-top: 20px;  
+}
+
+.form1 label{
+    width: 472px;
+    color: #ddd;
+    font-size: 20px;
+    padding-bottom: 52px;
+    line-height: 29px;
+}
+label span{
+    color: #000;
+
+}
+
+.form input [type="emai"]
+{
+margin-left: 30px;
+
+}
+.form1 input{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 11px;
+    padding-left: 5px;
+    margin-top:20px;
+    margin-left: 7px;
+    color: #fff;
+    outline: none;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+    font-size: 20px;
+    cursor:help;
+    border-top-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    caret-color: yellow;
+}
+.labelemail{
+    margin-left:28px;
+}
+.phone{
+    margin-left:-27px;
+    padding-left: 22px;
+}
+textarea{
+    background-color: rgba(0,0,0,0.4);
+    width: 700px; 
+    padding-left: 5px;
+    padding-top: 9px;  
+    height: 170px;
+    font-size: 22px;
+    letter-spacing: 3px;
+     border-bottom: 3px solid rgba(0,0,0,0.5);
+    position: relative;
+    top: -30px;
+    left: 89px; 
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.form1 input[type="submit"]{
+     background-image: linear-gradient(to left,#008896, rgba(0,0,0,0.4));
+     position: relative;
+     top: -70px;
+     padding: 10px;
+     width: 200px;
+     height: auto;
+     margin-left: 600px;
+     border-left:  3px solid rgba(0,0,0,0.5);
+     border-radius: none;
+}
+.form1 input[type="submit"]:hover{
+    background-color: white;
+    color: #fff;
+    border: none;     
+}
+.Country{
+    color: black;
+    margin: 0px;
+}
+select{
+    width: 150px;
+    height: 30px;
+    padding: 5px 0px 0px 6px;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 60px;
+    position: relative;
+    top: 0px;
+    left:10px;
+}
+
+/* ^^^^^^^^^^^^^^^---Last Section---^^^^^^^^^^ */
+.con-section{
+    margin-top: 10px;
+     background-image: linear-gradient(to left
+        , #008896, rgba(0,0,0,0.28));
+        height: 250px;
+}
+.con-section h1{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #008896, rgba(0,0,0,0.5));
+    height:50px;
+    width:100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    /*height: 100%;*/
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.Company1{
+    width: 26%;
+    text-align: center;
+    position: relative;
+    top: -4px;
+    right: 121px;
+}
+.info{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: -4px;
+    right: 16px;
+   
+}
+.ads{
+    width: 15%;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    right: -106px;
+    line-height: 25px;
+ }  
+.row h4{
+    font-size: 21px;
+    margin-top: -4px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: rgba(0,0,0.8);
+}
+.row p{
+    color:#000;
+    text-transform: capitalize;
+    text-align: center;
+}
+.row p span{
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.row p span:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+     font-size: 22px;
+}
+
+/* ^^^^^^^^^^^^^ Footer ^^^^^^^^^^^  */
+footer{
+    margin: -10px;
+    padding-top: 2px;
+    height: 35px;
+    width: 100%;
+    background-color: #008896;
+    text-align:center;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.fab{
+    font-size: 17px;
+}
